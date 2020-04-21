@@ -51,7 +51,7 @@ let overlays = {
 L.control.layers(baseMaps, overlays).addTo(map);
 
 // Accessing the Earthquakes GeoJSON URL.
-let zipCodes = "https://github.com/chanhodchang/GeoJSON/blob/master/us_census_zipcodes.geojson";
+let zipCodes = "https://raw.githubusercontent.com/chanhodchang/GeoJSON/master/ca_california_zip_codes_geo.min.json";
 
 // Create a style for the lines.
 let myStyle = {
